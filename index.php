@@ -21,6 +21,7 @@ and open the template in the editor.
         $first->add_grade(65);
         $first->add_grade(75);
         $first->add_grade(55);
+        $first->status = "Junior";
         $students['1'] = $first;
 
         $second = new Student();
@@ -32,6 +33,7 @@ and open the template in the editor.
         $second->add_grade(95);
         $second->add_grade(80);
         $second->add_grade(50);
+        $second->status = " pupil";
         $students['2'] = $second;
         
         $third = new Student();
@@ -42,6 +44,7 @@ and open the template in the editor.
         $third->add_grade(65);
         $third->add_grade(75);
         $third->add_grade(55);
+        $third->status = "senior";
         $students['3'] = $third;
         
         $fourth = new Student();
@@ -52,6 +55,7 @@ and open the template in the editor.
         $fourth->add_grade(65);
         $fourth->add_grade(75);
         $fourth->add_grade(55);
+        $fourth->status = "freshman";
         $students['4'] = $fourth;
         ksort($students); 
         foreach ($students as $student)
